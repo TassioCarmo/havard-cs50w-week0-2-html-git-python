@@ -80,6 +80,12 @@ Git is a command line tool that helps with version control in several different 
 - <code>git status</code> See how the code compares to the code on the remote repository
 - <code>git push</code> Send to github all the changes.
 - <code>git log</code> Gives the history of all of your commits on that repository.
+- <codeO>git reset --hard <commit></code> reverts your code to exactly how it was after the specified commit. To specify the commit, use the commit hash associated with a commit which can be found using git log as shown above.
+- <code>git reset --hard origin/master</code> reverts your code to the version currently stored online on Github.
+- <code>git branch</code>  see which branch you’re currently working on, which will have an asterisk to the left of its name.
+- <code>git checkout -b <new branch name></code> Make a new branch
+- <code>git checkout <branch name></code> Switch between branches
+- <code>git merge <other branch name></code>. This will be treated similarly to a push or pull, and merge conflicts may appear.
 
 If you’ve only changed existing files and not created new ones, instead of using **git add** . and then **git commit**..., we can condense this into one command: <code>git commit -am "some message"</code>. This command will commit all the changes that you made.
 
@@ -96,4 +102,13 @@ Making lots of commits as you make lots of changes to your program. You'll commi
 
  One problem that can emerge when working with Git, especially when you’re collaborating with other people, is something called a merge conflict. A merge conflict occurs when two people attempt to change a file in ways that conflict with each other.
     This will typically occur when you either git push or git pull. When this happens, Git will automatically change the file into a format that clearly outlines what the conflict is. Here’s an example where the same line was added in two different ways:
+    
+    ![image](https://user-images.githubusercontent.com/31789624/202058208-ebbeb43d-3bb2-4b95-94bf-fd6e397315d1.png)
 
+
+## Branching
+    
+    
+    Branching is a method of moving into a new direction when creating a new feature, and only combining this new feature with the main part of your code, or the main branch, once you’re finished. This workflow will look more like the below graphic:
+
+![image](https://user-images.githubusercontent.com/31789624/202058303-aae81d72-626a-43cb-87f5-9a31b2ecc757.png)
