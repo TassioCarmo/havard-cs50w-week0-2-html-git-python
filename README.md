@@ -1,7 +1,7 @@
 # Introduction to javascript, html and CSS
 ## what did i learn
 
-## Sass (Syntactically Awesome Style Sheets)
+# Sass (Syntactically Awesome Style Sheets)
 
 Sass is a language that allows us to write CSS more efficiently in several ways, one of which is by allowing us to have variables
 
@@ -59,7 +59,7 @@ Sass also gives us **inheritance**. We do this by adding a % before a name of a 
     background-color: red;
 }
 ```
-## Git
+# Git
 
 Git is a command line tool that helps with version control in several different ways: 
 
@@ -68,7 +68,7 @@ Git is a command line tool that helps with version control in several different 
 - Allowing us to make changes to and test out code on a different branch without altering our main code base, and then merging the two together.
 - Allowing us to revert back to earlier versions of our code if we realize we’ve made a mistake.
 
-### Commands
+## Commands
 
 - <code>git clone <repository url>.</code> This will download the repository to your computer. 
 - <code>ls</code> lists all files and folders in your current directory.
