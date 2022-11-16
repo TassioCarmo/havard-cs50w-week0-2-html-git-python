@@ -88,3 +88,5 @@ Sometimes, the remote repository on GitHub will be more up to date than the loca
 ### Commit
     
 Save points in other words "i want to save the current state of all the files in the repository"
+    
+Making lots of commits as you make lots of changes to your program. You'll commit and commit again after each new addition you make to the project. And you might want to refer back to a previous commit, but it's only valuable to do so if you can identify in which commit you made a particular change
