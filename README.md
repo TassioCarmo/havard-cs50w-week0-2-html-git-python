@@ -59,3 +59,18 @@ Sass also gives us **inheritance**. We do this by adding a % before a name of a 
     background-color: red;
 }
 ```
+## Git
+
+Git is a command line tool that helps with version control in several different ways: 
+
+- Allowing us to keep track of changes we make to our code by saving snapshots of our code at a given point in time.
+- Allowing us to easily synchronize code between different people working on the same project by allowing multiple people to pull information from and push information to a repository stored on the web.
+- Allowing us to make changes to and test out code on a different branch without altering our main code base, and then merging the two together.
+- Allowing us to revert back to earlier versions of our code if we realize we’ve made a mistake.
+
+### Commands
+
+- <code>git clone <repository url>.</code> This will download the repository to your computer. 
+- <code>ls</code> lists all files and folders in your current directory.
+- <code>cd <repository name></code> change directory into that folder.
+- <code> touch <new file name> </code> creates a new file in that folder. You can now make edits to that file.
