@@ -108,8 +108,7 @@ Making lots of commits as you make lots of changes to your program. You'll commi
 
 ## Branching
     
-    
-    Branching is a method of moving into a new direction when creating a new feature, and only combining this new feature with the main part of your code, or the main branch, once you’re finished. This workflow will look more like the below graphic:
+Branching is a method of moving into a new direction when creating a new feature, and only combining this new feature with the main part of your code, or the main branch, once you’re finished. This workflow will look more like the below graphic:
 
 ![image](https://user-images.githubusercontent.com/31789624/202058303-aae81d72-626a-43cb-87f5-9a31b2ecc757.png)
     
