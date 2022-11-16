@@ -74,3 +74,17 @@ Git is a command line tool that helps with version control in several different 
 - <code>ls</code> lists all files and folders in your current directory.
 - <code>cd <repository name></code> change directory into that folder.
 - <code> touch <new file name> </code> creates a new file in that folder. You can now make edits to that file.
+- <code>git add <new file name></code> to tracks that specific file, 
+- <code>git add .</code> tracks all files within that directory.
+- <code>git commit -m "some message"</code> message describes the changes you just made.
+- <code>git status</code> See how the code compares to the code on the remote repository
+- <code>git push</code> Send to github all the changes.
+
+If you’ve only changed existing files and not created new ones, instead of using **git add** . and then **git commit**..., we can condense this into one command: <code>git commit -am "some message"</code>. This command will commit all the changes that you made.
+
+Sometimes, the remote repository on GitHub will be more up to date than the local version. In this case, you want to first commit any changes, and then run <code>git pull</code> to pull any remote changes to your repository.
+    
+
+### Commit
+    
+Save points in other words "i want to save the current state of all the files in the repository"
