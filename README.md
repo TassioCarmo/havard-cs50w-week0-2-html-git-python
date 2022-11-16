@@ -31,7 +31,8 @@ ol {
 - To speed up this process use the command <code>sass --watch variables.scss:variables.css</code> which automatically changes the .css file every time a change is detected in the .scss file.
 - While using Sass, we can also physically nest our styling rather than use the CSS selectors we talked about earlier. For example, if we want to apply some styling only to paragraphs and unordered lists within a div, we can write the following:
 
-- Sass also gives us inheritance. We do this by adding a % before a name of a class, adding some styling, and then later adding the line @extend %classname to the beginning of some styling
+
+Sass also gives us **inheritance**. We do this by adding a % before a name of a class, adding some styling, and then later adding the line @extend %classname to the beginning of some styling
 
 ```
 %message {
