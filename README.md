@@ -79,6 +79,7 @@ Git is a command line tool that helps with version control in several different 
 - <code>git commit -m "some message"</code> message describes the changes you just made.
 - <code>git status</code> See how the code compares to the code on the remote repository
 - <code>git push</code> Send to github all the changes.
+- <code>git log</code> Gives the history of all of your commits on that repository.
 
 If you’ve only changed existing files and not created new ones, instead of using **git add** . and then **git commit**..., we can condense this into one command: <code>git commit -am "some message"</code>. This command will commit all the changes that you made.
 
@@ -90,3 +91,9 @@ Sometimes, the remote repository on GitHub will be more up to date than the loca
 Save points in other words "i want to save the current state of all the files in the repository"
     
 Making lots of commits as you make lots of changes to your program. You'll commit and commit again after each new addition you make to the project. And you might want to refer back to a previous commit, but it's only valuable to do so if you can identify in which commit you made a particular change
+    
+## Merge Conflicts
+
+ One problem that can emerge when working with Git, especially when you’re collaborating with other people, is something called a merge conflict. A merge conflict occurs when two people attempt to change a file in ways that conflict with each other.
+    This will typically occur when you either git push or git pull. When this happens, Git will automatically change the file into a format that clearly outlines what the conflict is. Here’s an example where the same line was added in two different ways:
+
