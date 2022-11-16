@@ -118,3 +118,55 @@ Making lots of commits as you make lots of changes to your program. You'll commi
 - Forking: As a GitHub user, you have the ability to fork any repository that you have access to, which creates a copy of the repository that you are the owner of. We do this by clicking the “Fork” button in the top-right.
 -  Pull Requests: Once you’ve forked a repository and made some changes to your version, you may want to request that those changes be added to the main version of the repository. 
 
+# Python
+    
+### Strings
+
+- Ordered: Yes
+- Mutable: No
+    
+### Lists
+
+- Ordered: Yes
+- Mutable: Yes
+
+### Tuples
+
+- Ordered: Yes
+- Mutable: No
+
+
+## Functional Programming
+
+In addition to supporting Object-Oriented Programming, Python also supports the Functional Programming Paradigm, in which functions are treated as values just like any other variable.
+
+### Decorators
+
+One thing made possible by functional programming is the idea of a decorator, which is a higher-order function that can modify another function. For example, let’s write a decorator that announces when a function is about to begin, and when it ends. We can then apply this decorator using an @ symbol.
+
+```
+def announce(f):
+    def wrapper():
+        print("About to run the function")
+        f()
+        print("Done with the function")
+    return wrapper
+
+@announce
+def hello():
+    print("Hello, world!")
+
+hello()
+
+""" Output:
+About to run the function
+Hello, world!
+Done with the function
+"""
+```
+### Lambda Functions
+
+Lambda functions provide another way to create functions in python. For example, if we want to define the same square function we did earlier, we can write:
+
+    <code>square = lambda x: x * x</code>
+
